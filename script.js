@@ -7,17 +7,23 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
+}
 
-  //prompt for password criteria
-  //choose 8-12 characters
+function generatePassword {
+  //---prompt for password criteria---
+  //---choose 8-12 characters---
+  
+  //---check for uppercase choice---
+  upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  //---check for lowercase choice---
+  lowercase = "abcdefghijklmnopqrstuvwxyz"
+  //---check for numeric choice---
+  numberChoice = "0123456789"
+  //---check for specials choice---
+  specialChar = "!@#$%^&*()_+-=[]\{}|;':,./<>?"
+  //---generate password---
 
-  //check for uppercase choice
-  //check for lowercase choice
-  //check for numeric choice
-  //check for specials choice
-
-  //display password
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword,generatePassword);
