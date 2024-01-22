@@ -9,21 +9,39 @@ function writePassword() {
   passwordText.value = password;
 }
 
-function generatePassword {
+function generatePassword() {
   //---prompt for password criteria---
   //---choose 8-12 characters---
-  
+  var passwordLength = prompt("Please choose a password length between 8 and 128 characters")
+
+  if (passwordLength < 8 || passwordLength > 128) {
+    alert ("Please input a valid length");
+    return;
+  };
+
   //---check for uppercase choice---
-  upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+
+
   //---check for lowercase choice---
-  lowercase = "abcdefghijklmnopqrstuvwxyz"
+  var lowercase = "abcdefghijklmnopqrstuvwxyz"
+
   //---check for numeric choice---
-  numberChoice = "0123456789"
+  var numberChoice = "0123456789"
+
   //---check for specials choice---
-  specialChar = "!@#$%^&*()_+-=[]\{}|;':,./<>?"
+  var specialChar = "!@#$%^&*()_+-=[]\{}|;':,./<>?"
+
   //---generate password---
 
+
+
+
+
+  //filler to confirm results while working
+  return "You have a test result!";
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword,generatePassword);
+generateBtn.addEventListener("click", writePassword);
