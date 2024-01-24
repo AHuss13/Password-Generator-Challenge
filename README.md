@@ -2,11 +2,9 @@
 
 ## Description
 
+The purpose of this project was to create a password generator that used uppercase, lowercase, numbers, and special characters after asking for criteria.
 
-
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+I learned to make alerts, prompts, boolean functions, compile a string, and how to use a random number generator.
 
 ## Usage
 
@@ -16,6 +14,7 @@
 4. Choose whether or not to include numbers in password.
 5. Choose whether or not to include special characters in password.
 
+***
 ![Deployed password generator screenshot](/Screenshot.png)
 
 ## Credits
