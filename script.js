@@ -32,7 +32,7 @@ function generatePassword() {
   var addNumber = confirm("If you would like to include numbers, choose OK");
   
   //---check for specials choice---
-  var specialChar = "!@#$%^&*()_+-=[]\{}|;':,./<>?"
+  var specialChar = " \"!@#$%^&*()_+-=[\\]{}|;':,./<>?"
   var addSpecial = confirm("If you would like to include special characters, choose OK");
 
 
