@@ -19,6 +19,8 @@ I learned to make alerts, prompts, boolean functions, compile a string, and how 
 
 ## Credits
 
+Starter code: https://github.com/coding-boot-camp/friendly-parakeet
+
 Thank you to Paul Keldsen for providing me with a test output. https://www.youtube.com/@paulkeldsen-webdevelopment1313
 
 Thank you to Cythia Mory for helping me to outline this solution. https://github.com/cynthiamory
