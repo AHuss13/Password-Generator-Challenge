@@ -2,26 +2,29 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
+
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 - What problem does it solve?
 - What did you learn?
 
 ## Usage
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+1. Input length of desired password.
+2. Choose whether or not to include uppercase letters in password.
+3. Choose whether or not to include lowercase letters in password.
+4. Choose whether or not to include numbers in password.
+5. Choose whether or not to include special characters in password.
 
-![alt text](assets/images/screenshot.png)
+![Deployed password generator screenshot](/Screenshot.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Thank you to Paul Keldsen for providing me with a test output. https://www.youtube.com/@paulkeldsen-webdevelopment1313
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Thank you to Cythia Mory for helping me to outline this solution. https://github.com/cynthiamory
 
-If you followed tutorials, include links to those here as well.
+Thank you to Dillon Riecke for walking me through my final debugging.
 
 ## License
 
