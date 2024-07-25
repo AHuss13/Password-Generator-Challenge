@@ -46,23 +46,23 @@ function generatePassword() {
   var possibleChars = "";
   var newPassword = "";
   if (addUpper) {
-    newPassword += upperCase[Math.floor(Math.random() * upperCase.length)];
+    newPassword += upperCase[Math.floor(Math.random() * upperCase.length)]; //randomly select a character from the uppercase string
     possibleChars += upperCase;
   }
 
   if (addLower) {
-    newPassword += lowerCase[Math.floor(Math.random() * lowerCase.length)];
+    newPassword += lowerCase[Math.floor(Math.random() * lowerCase.length)]; //randomly select a character from the lowercase string
     possibleChars += lowerCase;
   }
 
   if (addNumber) {
     newPassword +=
-      numberChoice[Math.floor(Math.random() * numberChoice.length)];
+      numberChoice[Math.floor(Math.random() * numberChoice.length)]; //randomly select a character from the number string
     possibleChars += numberChoice;
   }
 
   if (addSpecial) {
-    newPassword += specialChar[Math.floor(Math.random() * specialChar.length)];
+    newPassword += specialChar[Math.floor(Math.random() * specialChar.length)]; //randomly select a character from the special character string
     possibleChars += specialChar;
   }
 
@@ -70,6 +70,12 @@ function generatePassword() {
     newPassword +=
       possibleChars[Math.floor(Math.random() * possibleChars.length)];
   }
+  //Mix up characters to avoid the order of character confirmations
+  newPassword = newPassword
+    .split("")
+    .sort(() => Math.random() - 0.5)
+    .join("");
+
   return newPassword;
 }
 
